@@ -161,7 +161,7 @@ def get_realms_api():
 
     .. sourcecode:: http
 
-       GET / HTTP/1.1
+       GET /realm/ HTTP/1.1
        Host: example.com
        Accept: application/json
 
@@ -221,7 +221,7 @@ def get_super_user_realms():
 
     .. sourcecode:: http
 
-       GET /superuser HTTP/1.1
+       GET /realm/superuser HTTP/1.1
        Host: example.com
        Accept: application/json
 
