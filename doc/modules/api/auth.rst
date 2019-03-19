@@ -21,7 +21,7 @@ Authorization field in the header.
 
 .. sourcecode:: http
 
-   GET /users/ HTTP/1.1
+   GET /user/ HTTP/1.1
    Host: example.com
    Accept: application/json
    Authorization: eyJhbGciOiJIUz....jdpn9kIjuGRnGejmbFbM
